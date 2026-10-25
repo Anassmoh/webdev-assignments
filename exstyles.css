@@ -1,0 +1,78 @@
+/* first try */
+
+html {
+    background-color: gold;
+}
+
+body {
+    background-color: rgb(213, 237, 213);
+    color: rgb(10, 37, 37);
+    font-family: Arial, Helvetica, sans-serif, Comic;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 30px;
+    padding: 10px;
+}
+h1 {
+    color: rgb(88, 2, 2);
+    font-size: 32px;
+    border-bottom: 1px solid #1a4d8f;
+    padding-bottom: 23px;
+}
+p {
+    display: block;
+    max-width: 600px;
+    margin: 40px;
+    background-color: rgb(92, 124, 109);
+    padding: 8px;
+    border: 3px solid darkslategray;
+    text-align: center;
+}
+strong {
+    color: rgb(38, 83, 38);
+}
+a {
+    display: block;
+    background-color: lightblue;
+    color: rgb(18, 28, 2);
+    font-family: Times New Roman, Times, serif;
+    width: 100px;
+    font-size: 20px;
+    margin: 5px auto;
+    padding: 2px;
+    text-decoration: none;
+    border: 3px solid rgb(22, 22, 28);
+    text-align: center;
+    
+}
+
+a:hover {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline overline;
+
+}
+img{
+    display: block;
+    max-width: 100%;
+    width: 500px;
+    margin: 46px 0;
+    border: 2px solid rgb(52, 49, 49);
+    border-radius: 14px;
+}
+table {
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 4px 30px;
+}
+tbody tr:nth-child(odd) {
+    background-color: green;
+}
+thead th:hover {
+    background-color: black;
+}
+.hada {
+    list-style: lower-alpha;
+}
