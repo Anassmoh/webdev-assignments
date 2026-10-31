@@ -94,7 +94,6 @@ li a:hover {
   display: block;
   font-style: italic;
   font-size: 1rem;
-  text-align: justify;
   max-width: calc(100% - 3rem);
   margin: 0 auto 1rem;
   
@@ -171,7 +170,6 @@ section p {
   display: block;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1rem;
-  text-align: justify;
   margin: 1rem auto;
   max-width: 80%;
 }
