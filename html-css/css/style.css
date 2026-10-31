@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-image: url("../media/background1.jpg");
+  background-image: url("../media/background1.webp");
   background-size: 100%;
   background-repeat: no-repeat;
   width: 100%;
@@ -131,7 +131,7 @@ section {
   width: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-image: url("../media/background2.jpg");
+  background-image: url("../media/background2.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
