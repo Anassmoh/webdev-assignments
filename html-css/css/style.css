@@ -33,6 +33,7 @@ main, footer {
 
 .topbar img {
   width: 3rem;
+  height: auto;
 }
 
 h1 {
@@ -119,6 +120,7 @@ footer {
 
 #map {
   width: 500px;
+  height: auto;
   margin: 1rem;
   border: 1px solid black;
   border-radius: 4px;
