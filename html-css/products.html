@@ -1,41 +1,101 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Products - My potato shop</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Fontdiner+Swanky&family=Gravitas+One&family=Lavishly+Yours&family=Noto+Sans+Linear+B&family=Permanent+Marker&family=Rouge+Script&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header>
+<!DOCTYPE html>
+<html lan="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vesitori</title>
+  <meta name="vieport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Splash&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="topbar">
+      <header>
+        <img src="media/drop.png" alt="Vesitori Logo">
+        <h1>Vesitori</h1>
+      </header>
       <nav>
-        <img
-          src="https://images.unsplash.com/vector-1781926093875-5723a11f6740?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
-          alt="logo"
-        />
-        <div>
-          <a href="index.html">Home</a>
-          <a href="products.html">Products</a>
-          <a href="contact.html">Contact</a>
-        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="#contact_info">Contact</a></li>
+        </ul>
       </nav>
-    </header>
+    </div>
     <main>
-      <h1 class="product-page-title">My potato shop, look at these products</h1>
-      <img
-        src="https://images.unsplash.com/photo-1789925941721-c711920da19a?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
-        alt="potatoes"
-      />
-
-      <img src="photo-1764587492501-bf8b61c09792.avif" alt="another potato" />
-
-      <p>lorem ipsum dolor</p>
+      <h2>Discover our water variety</h2>
+      <section>
+        <article> 
+          <h3>Tap water</h3>
+          <figure>
+            <img src="media/tap_water.jpg" alt="Water from the tap">
+            <figcaption>Price: 1.19€</figcaption>
+          </figure>
+          <p> Why climb a mountain for a spring 
+            when the spring comes to you? Our tap 
+            water is cold, reliable, 
+            and ready at 3 a.m. when you wake up 
+            thirsty and confused. No cape, no battery, no subscription,
+             just pure, wet greatness. Vesitori salutes you.
+            </p>
+        </article>
+        <article> 
+          <h4>Rain water</h4>
+          <figure>
+            <img src="media/rain_water.jpg" alt="Water from the rain">
+            <figcaption>Price: 1.29€</figcaption>
+          </figure>
+          <p> Why settle for water that has been sitting 
+            in pipes when you can have water that just 
+            fell from the clouds? Our rain water is 
+            collected fresh, fills your glass with a little 
+            sparkle of sky, and arrives with its own bragging 
+            rights. Tap water is a loyal friend, but rain water is its 
+            famous cousin who travels and has stories to tell. Vesitori: 
+            we catch the sky so you don't have to.
+          </p>
+        </article>
+        <article> 
+          <h5>Canned water</h5>
+          <figure>
+            <img src="media/canned_water.jpg" alt="Water in a can">
+            <figcaption>Price: 1.39€</figcaption>
+          </figure>
+          <p> Some water likes to travel light. 
+            Ours puts on a tiny metal suit, 
+            hops into a can, and waits patiently for you 
+            to go psssht. It fits in your bag, survives 
+            the bus, and never spills in your backpack 
+            (we are mostly sure). Rain water fell from the sky, 
+            tap water came through the pipes, and canned water 
+            is the cool one that shows up with its own packaging 
+            and a sense of style. Vesitori: 
+            because even water deserves a little armor.
+          </p>
+        </article>
+      </section>
     </main>
-  </body>
-</html>
+    <footer>
+      <div id="contact">
+        <h3>Contact us</h3>
+        <p>
+          visit us at:
+        </p>
+        <address>Vesitorninkatu H 2 o<br>
+          020202 Espoo<br>
+          Finland
+        </address>
+        <p id="contact_info">
+          <strong>Email: </strong><a href="mailto:mitä@vesitori.fi?suject=Positive feedback">mitä@vesitori.fi</a><br>
+          <strong>Phone: </strong> <a href="tel:+348 (0)2020202020">+348 (0)2020202020</a>
+        </p>
+      </div> 
+        <img id="map" src="media/map.png" alt="Address google map">
+
+    </footer>
+  </div>
+</body>
