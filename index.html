@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A complete guide to HTML DOM tree best practices.">
+  <title>Modern HTML Document Structure</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+  <!-- 1. Site Header: Banner, Title, and Navigation -->
+  <header class="site-header">
+    <div class="header-container">
+      <h1 class="brand-title">Dev<span class="highlight">Hub</span></h1>
+      
+      <nav aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#features" class="nav-link active">Features</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 2. Main Content: Unique primary content of the document -->
+  <main id="main-content">
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <h2>Build Better Web Layouts</h2>
+      <p>Mastering semantic HTML and CSS architecture is <strong class="accent">essential</strong> for accessible web apps.</p>
+      <a href="#get-started" class="btn btn-primary">Get Started</a>
+    </section>
+
+    <!-- Content / Articles Section -->
+    <section id="features" class="features-section">
+      <h2>Core Features</h2>
+      
+      <div class="card-grid">
+        <!-- Feature Article 1 -->
+        <article class="card">
+          <h3>Semantic Markup</h3>
+          <p>Improves <span class="badge">SEO</span> and screen reader accessibility automatically.</p>
+        </article>
+
+        <!-- Feature Article 2 -->
+        <article class="card">
+          <h3>Predictable Layouts</h3>
+          <p>Uses modern CSS Flexbox and Grid with <span class="badge">border-box</span> math.</p>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 3. Site Footer: Copyright, Secondary Links -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p>&copy; 2026 DevHub. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
