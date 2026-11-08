@@ -9,7 +9,7 @@ as the course material asks. Upload the module folders to users.metropolia.fi an
 
 - HTML and CSS: https://users.metropolia.fi/~anassm/html-css/
 - JS modules 1 and 2: https://users.metropolia.fi/~anassm/js-1-2/
-- JS module 3: https://users.metropolia.fi/~username/js-3/
+- JS module 3: https://users.metropolia.fi/~anassm/js-3/
 - JS module 4: https://users.metropolia.fi/~username/js-4/
 - JS module 5: https://users.metropolia.fi/~username/js-5/
 
@@ -42,5 +42,19 @@ _This list is updated automatically by the Metropolia ICT extension._
 - 9. Prime number: ✔ completed, 2/2 test points (`js-1-2/assignment-9/assignment-9.js`)
 - 10. Dice probability by simulation: ✔ completed, 5/5 test points (`js-1-2/assignment-10/assignment-10.js`)
 - 11. Publish, push and submit your links: ✔ completed, 3/3 test points
+
+### JS module 3: Arrays and functions (28.75 / 30 points)
+
+- 1. Numbers in reverse order: ✔ completed, 2/2 test points (`js-3/assignment-1/assignment-1.js`)
+- 2. Participants in alphabetical order: ✔ completed, 2/2 test points (`js-3/assignment-2/assignment-2.js`)
+- 3. Dogs in reverse alphabetical order: ✔ completed, 2/2 test points (`js-3/assignment-3/assignment-3.js`)
+- 4. Largest first: ✔ completed, 2/2 test points (`js-3/assignment-4/assignment-4.js`)
+- 5. Stop at a repeated number: ✔ completed, 2/2 test points (`js-3/assignment-5/assignment-5.js`)
+- 6. Roll until six: ✔ completed, 2/2 test points (`js-3/assignment-6/assignment-6.js`)
+- 7. A die with any number of sides: ✔ completed, 2/2 test points (`js-3/assignment-7/assignment-7.js`)
+- 8. Join strings without join(): ✔ completed, 2/2 test points (`js-3/assignment-8/assignment-8.js`)
+- 9. Even numbers into a new array: ✔ completed, 3/3 test points (`js-3/assignment-9/assignment-9.js`)
+- 10. Voting: ✔ completed, 8/8 test points (`js-3/assignment-10/assignment-10.js`)
+- 11. Publish, push and submit your links: ◐ partially completed, 1.75/3 test points
 
 <!-- metropolia:progress:end -->
