@@ -43,7 +43,7 @@ _This list is updated automatically by the Metropolia ICT extension._
 - 10. Dice probability by simulation: ✔ completed, 5/5 test points (`js-1-2/assignment-10/assignment-10.js`)
 - 11. Publish, push and submit your links: ✔ completed, 3/3 test points
 
-### JS module 3: Arrays and functions (28.75 / 30 points)
+### JS module 3: Arrays and functions (30 / 30 points)
 
 - 1. Numbers in reverse order: ✔ completed, 2/2 test points (`js-3/assignment-1/assignment-1.js`)
 - 2. Participants in alphabetical order: ✔ completed, 2/2 test points (`js-3/assignment-2/assignment-2.js`)
@@ -55,6 +55,17 @@ _This list is updated automatically by the Metropolia ICT extension._
 - 8. Join strings without join(): ✔ completed, 2/2 test points (`js-3/assignment-8/assignment-8.js`)
 - 9. Even numbers into a new array: ✔ completed, 3/3 test points (`js-3/assignment-9/assignment-9.js`)
 - 10. Voting: ✔ completed, 8/8 test points (`js-3/assignment-10/assignment-10.js`)
-- 11. Publish, push and submit your links: ◐ partially completed, 1.75/3 test points
+- 11. Publish, push and submit your links: ✔ completed, 3/3 test points
+
+### JS module 4: DOM and events (20 / 35 points)
+
+- 1. Add a list with innerHTML: ✔ completed, 2/2 test points (`js-4/t1/1.js`)
+- 2. Add a list with createElement(): ✔ completed, 2/2 test points (`js-4/t2/2.js`)
+- 3. A list from an array: ✔ completed, 2/2 test points (`js-4/t3/3.js`)
+- 4. Options from an array of objects: ✔ completed, 2/2 test points (`js-4/t4/4.js`)
+- 5. Picture cards: ✔ completed, 5/5 test points (`js-4/t5/5.js`)
+- 6. Button click: ✔ completed, 1/1 test points (`js-4/t6/6.js`)
+- 7. Hover effect: ✔ completed, 2/2 test points (`js-4/t7/7.js`)
+- 8. Calculator: ✔ completed, 4/4 test points (`js-4/t8/8.js`)
 
 <!-- metropolia:progress:end -->
