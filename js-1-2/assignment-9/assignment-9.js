@@ -12,6 +12,6 @@ for (let i = number; i > 0; i--) {
 if (j === 2) {
     document.querySelector("#target").innerHTML = `${number} is a prime number`
 } else {
-        document.querySelector("#target").innerHTML = `${number} is a not prime number`
+    document.querySelector("#target").innerHTML = `${number} is not prime number`
 
 }
