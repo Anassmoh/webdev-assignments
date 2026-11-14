@@ -1,5 +1,5 @@
 "use strict";
 
-let name = prompt('name: ')
+let aname = prompt('name: ')
 
-document.querySelector('#target').innerHTML = `Hello, ${name}!`
+document.querySelector('#target').textContent = `Hello, ${aname}!`

@@ -6,7 +6,7 @@ let hit = 0;
 
 for (let i = 0; i < 10000; i++) {
         let sum = 0;
-        for (let i = 0; i < number; i++) {
+        for (let j = 0; j < number; j++) {
         sum += Math.floor(Math.random() * 6) + 1;
     }
     if (sum == sum_eye) {
@@ -16,5 +16,5 @@ for (let i = 0; i < 10000; i++) {
 
 const prob = (hit/10000) * 100;
 
-document.querySelector("#target").innerHTML = `Probability to get sum ${sum_eye} with ${number} dice is ${prob.toFixed(2)}%`
+document.querySelector("#target").textContent = `Probability to get sum ${sum_eye} with ${number} dice is ${prob.toFixed(2)}%`
 
