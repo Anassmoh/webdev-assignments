@@ -72,9 +72,16 @@ _This list is updated automatically by the Metropolia ICT extension._
 - 11. Picture cards with a modal: ✔ completed, 6/6 test points (`js-4/t11/11.js`)
 - 12. Publish, push and submit your links: ✔ completed, 3/3 test points
 
-### Python Flask server (14 / 20 points)
+### Python Flask server (20 / 20 points)
 
 - 1. Prime number service: ✔ completed, 1/1 test points (`flask/`)
 - 2. English-Finnish dictionary: ✔ completed, 1/1 test points (`flask/`)
+- 3. Add words to the dictionary: ✔ completed, 1/1 test points (`flask/`)
+
+### JS module 5: AJAX (8 / 23 points)
+
+- 1. TV series search form: ✔ completed, 2/2 test points (`js-5/assignment-1/assignment-1.html`)
+- 2. Fetch the search results: ✔ completed, 3/3 test points (`js-5/assignment-2/assignment-2.js`)
+- 3. Show the results on the page: ◐ partially completed, 3/7 test points (`js-5/assignment-3/assignment-3.js`)
 
 <!-- metropolia:progress:end -->

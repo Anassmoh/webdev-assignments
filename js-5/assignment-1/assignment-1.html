@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 1</title>
+</head>
+<body>
+<h1>TV series search</h1>
+<form action="https://api.tvmaze.com/search/shows">
+  <input id="query" name="q" type="text">
+  <input type="submit" value="Search">
+  <script>
+    'use strict';
+
+    const form = document.querySelector("form");
+    const query = document.querySelector("#query");
+
+    async function Fetchit(keyword) {
+        try {
+            const response = await fetch(`https://api.tvmaze.com/search/shows?q}=${encodeURIComponent(keyword)}`);
+            if (!response.ok) {
+                throw new Error('some error : ', response.status)
+            }
+            const data = await response.json();
+            console.log('check these out: ', data)
+            return data
+        }
+        catch (error) {
+            console.log('this is the error', error)
+        }
+    }
+
+    form.addEventListener('sumit', (e) => {
+        e.preventDefault();
+        fetchit(query.value);
+
+    });
+
+  </script>
+</form>
+
+</body>
+</html>
