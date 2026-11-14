@@ -10,8 +10,8 @@ as the course material asks. Upload the module folders to users.metropolia.fi an
 - HTML and CSS: https://users.metropolia.fi/~anassm/html-css/
 - JS modules 1 and 2: https://users.metropolia.fi/~anassm/js-1-2/
 - JS module 3: https://users.metropolia.fi/~anassm/js-3/
-- JS module 4: https://users.metropolia.fi/~username/js-4/
-- JS module 5: https://users.metropolia.fi/~username/js-5/
+- JS module 4: https://users.metropolia.fi/~anassm/js-4/
+- JS module 5: https://users.metropolia.fi/~anassm/js-5/
 
 Add notes about any problems or extra features here.
 
@@ -78,10 +78,14 @@ _This list is updated automatically by the Metropolia ICT extension._
 - 2. English-Finnish dictionary: ✔ completed, 1/1 test points (`flask/`)
 - 3. Add words to the dictionary: ✔ completed, 1/1 test points (`flask/`)
 
-### JS module 5: AJAX (8 / 23 points)
+### JS module 5: AJAX (21.75 / 23 points)
 
 - 1. TV series search form: ✔ completed, 2/2 test points (`js-5/assignment-1/assignment-1.html`)
 - 2. Fetch the search results: ✔ completed, 3/3 test points (`js-5/assignment-2/assignment-2.js`)
-- 3. Show the results on the page: ◐ partially completed, 3/7 test points (`js-5/assignment-3/assignment-3.js`)
+- 3. Show the results on the page: ✔ completed, 7/7 test points (`js-5/assignment-3/assignment-3.js`)
+- 4. Default image: ✔ completed, 2/2 test points (`js-5/assignment-4/assignment-4.js`)
+- 5. A random Chuck Norris joke: ✔ completed, 2/2 test points (`js-5/assignment-5/assignment-5.js`)
+- 6. Search jokes: ✔ completed, 4/4 test points (`js-5/assignment-6/assignment-6.js`)
+- 7. Publish, push and submit your links: ◐ partially completed, 1.75/3 test points
 
 <!-- metropolia:progress:end -->

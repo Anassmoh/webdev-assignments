@@ -50,9 +50,9 @@ form.addEventListener('submit', async (e) => {
         article.appendChild(link)
         article.appendChild(image)
 
-        const summary = document.createElement('summary')
-        division.appendChild(summary)
+        const summary = document.createElement('div')
         summary.innerHTML = dat.show.summary
+        article.appendChild(summary)
 
 
     }
