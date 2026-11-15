@@ -1,14 +1,14 @@
 'use strict';
 
-let result = '', rand;
+let result = ''
 
 function roll() {
-    rand = Math.floor(Math.random() * 6) + 1;
+    const rand = Math.floor(Math.random() * 6) + 1;
     return rand;
 }
 
 while (true) {
-    rand = roll();
+    const rand = roll();
     result += `<li>${rand}</li>`
     if (rand === 6) {
         break;

@@ -1,14 +1,11 @@
 'use strict';
 
-const five = [], evif = [];
+const five = []
 
-for (let i = 1; i <= 5; i++) {
+for (let i = 0; i < 5; i++) {
     const number = Number(prompt('Enter a number: '));
-    five.push(number);
+    five.splice(0,0,number);
 }
 
-for (let i = 1; i <= 5; i++) {
-    evif.push(five.pop());
-}
 
-console.log(evif);
+console.log(five);
