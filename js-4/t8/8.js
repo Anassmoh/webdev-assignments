@@ -20,6 +20,6 @@ btn.addEventListener('click', () => {
         calculation = num1 / num2;
     }
     
-    result.innerHTML = calculation;
+    result.textContent = calculation;
 
 });

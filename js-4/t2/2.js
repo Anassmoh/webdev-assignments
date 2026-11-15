@@ -1,12 +1,12 @@
 'use strict';
 
-const dotarget = document.querySelector("#target");
-const list = ['First item', 'Second item', 'Third item'];
+const targ = document.querySelector('#target');
+const order = ['First','Second','Third']
 
-list.forEach(item => {
-    const litem = document.createElement('li');
-    litem.textContent = item
-    dotarget.appendChild(litem)
-});
+order.forEach(item => {
+    const li = document.createElement('li')
+    li.textContent = `${item} item`
+    targ.appendChild(li)
+})
 
-dotarget.children[1].classList.add('my-item')
+document.querySelectorAll('li')[1].classList.add('my-item')

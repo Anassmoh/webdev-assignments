@@ -1,10 +1,9 @@
 'use strict';
-const doc = document.getElementById('target');
-const list = ['First item', 'Second item', 'Third item'];
 
-list.forEach(i => {
-    doc.innerHTML += `<li>${i}</li>`
-});
+const targ = document.getElementById('target')
+const lister = ['First', 'Second', 'Third']
 
+lister.forEach(item => 
+    targ.innerHTML += `<li>${item} item</li>` )
 
-doc.classList.add('my-list')
+targ.classList.add('my-list')

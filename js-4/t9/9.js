@@ -20,6 +20,6 @@ btn.addEventListener('click', () => {
         const numbers = text.split('/');
         calc = numbers[0] / numbers[1];
     }; 
-    result.innerHTML = calc
+    result.innerText = calc
 });
 

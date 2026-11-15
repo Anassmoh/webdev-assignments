@@ -95,7 +95,7 @@ const picArray = [
 
 const section = document.querySelector('#pictures');
 const modal = document.querySelector('dialog');
-const close = document.querySelector('dialog span');
+const close = document.querySelector('dialog > span');
 const bimg = document.querySelector('dialog img');
 
 

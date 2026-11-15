@@ -1,9 +1,19 @@
+'use strict';
 
-'use strict'
+const body = document.querySelector("body");
 
+function random(number) {
+  return Math.floor(Math.random() * (number + 1));
+}
 
-const lister = [2,1,5,67,2,3,44,5,10,11,4,]
+function changeBackground() {
+  const rndCol = `rgb(${random(255)} ${random(255)} ${random(255)})`;
+  document.body.style.backgroundColor = 'black';
+}
+function hangeBackground() {
+  const rndCl = `rgb(${random(255)} ${random(255)} ${random(255)})`;
+  document.body.style.backgroundColor = 'white';
+}
 
-console.log(lister.sort(function (a,b) {
-    return b-a
-}))
+body.addEventListener("mouseover", changeBackground);
+body.addEventListener("mouseout", hangeBackground);
