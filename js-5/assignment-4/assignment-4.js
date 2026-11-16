@@ -7,7 +7,7 @@ async function fetchit(keyword) {
     try {
         const response = await fetch(`https://api.tvmaze.com/search/shows?q=${encodeURIComponent(keyword)}`);
         if (!response.ok) {
-            throw new Error('some error : ', response.status)
+            throw new Error('some error : ' + response.status)
         }
         const data = await response.json();
         console.log('check these out: ', data)
