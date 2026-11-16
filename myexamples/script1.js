@@ -1,19 +1,20 @@
 'use strict';
 
-const body = document.querySelector("body");
-
-function random(number) {
-  return Math.floor(Math.random() * (number + 1));
+async function ana(hoa) {
+  try {
+  const response = await fetch(`www.ana/${encodeURIComponent(hoa)}`);
+  if (!response.ok) {
+    throw new Error('some:' + response.status)
+  }
+  const data = await response.json()
+  return data
+  }
+  catch (error) {
+    console.log("some", error)
+  }
 }
 
-function changeBackground() {
-  const rndCol = `rgb(${random(255)} ${random(255)} ${random(255)})`;
-  document.body.style.backgroundColor = 'black';
-}
-function hangeBackground() {
-  const rndCl = `rgb(${random(255)} ${random(255)} ${random(255)})`;
-  document.body.style.backgroundColor = 'white';
-}
-
-body.addEventListener("mouseover", changeBackground);
-body.addEventListener("mouseout", hangeBackground);
+document.querySelector('.hua').addEventListener('submit', async (e) => {
+  e.preventDefault
+  ana(queueMicrotask.value)
+})
