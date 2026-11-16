@@ -1,14 +1,10 @@
-from flask import Flask
-from flask_cors import CORS
+from flask import Flask, send_from_directory
 
 app = Flask(__name__)
-cors = CORS(app)
-app.config['CORS_HEADERS'] = 'Content-Type'
 
-@app.route('/airport/<icao>')
-def airport(icao):
-  # add database query here
-  return {'ICAO': icao, 'Name': 'Airport name'}
+@app.route('/static/<path:filename>')
+def serve_static(filename):
+    return send_from_directory('static', filename)
 
-if __name__ == "__main__":
-  app.run(host='127.0.0.1', port='3000', use_reloader=(True))
+if __name__ == '__main__':
+  app.run(host='127.0.0.1', port=3000, use_reloader=True)
